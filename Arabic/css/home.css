@@ -431,8 +431,30 @@ h1{
 		align-items: center;
 	}
 
-	.small-heading{font-size: 20px;
+		.large-heading {
+		height: 180px;
+		width: 180px;
+		margin-left: 40px;
+		
+	}
+
+	.small-heading{font-size: 22px;
 	width: 100%;}
+
+	.get-started {
+		text-decoration: none;
+		color: white;
+		text-shadow: 1px 1px 1px black;
+		padding: 12px 25px;
+		border-radius: 8px;
+		background-color: #c90202;	
+		font-size:18px;
+		font-weight: 600;
+		font-family: "Changa", sans-serif;
+		letter-spacing: 1.5px;
+		box-shadow: 1px 1px 5px rgb(0, 0, 0);
+		border: 2px solid white
+	}
 
 	.exp-info{
 		width:100%;
@@ -456,7 +478,7 @@ h1{
 	.android{
 		width: 250px;
 		margin-bottom: 30px;
-		margin-left: 70px;
+		
 	}
 	.ios{
 		width: 250px;
